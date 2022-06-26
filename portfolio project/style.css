@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Stoke:wght@300&display=swap');
+
+
+
+html {
+    scroll-behavior: smooth;
+   }
+*{
+
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.width {
+
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+.mynav {
+
+    position: fixed;
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.mynav .width {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.mynav .icon a{
+
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.mynav .icon a span{
+
+    color: rgb(39, 44, 109);
+}
+
+.mynav .list li{
+
+    list-style: none;
+    display: inline-block;
+
+}
+
+
+
+.mynav .list li a{
+
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.2s ease;
+
+}
+
+.mynav .list li a:hover{
+    
+    color: rgb(39, 44, 109);
+
+}
+
+.menu-button {
+
+    color: whitesmoke;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+
+}
+
+.About {
+
+    display: flex;
+    background: url("images/the-mandalorian-5k-1920x1080_477555-mm-90.jpg") no-repeat center;
+    height: 100vh;
+    color: white;
+    min-height: 500px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+
+
+.About .width {
+
+    margin: auto 0 auto 40px;
+
+}
+.About .content .text-1{
+    
+    font-size: 30px;
+
+}
+
+.About .content .text-2{
+    
+    font-size: 87px;
+    font-weight: 700;
+    margin-left: -4px;
+
+}
+
+.About .content .text-3{
+    
+    font-size: 30px;
+    margin: 5px 0;
+
+}
+
+.About .content .text-3 span {
+
+    color: rgb(30, 29, 94);
+    font-weight: 600;
+
+}
+
+.About .content a {
+
+    display: inline-block;
+    background: whitesmoke;
+    color: rgb(30, 29, 94);
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 2px solid whitesmoke;
+    transition: all 0.3s ease;
+}
+
+.About .content a:hover {
+
+    color: black;
+    background: none;
+
+}
+
+
+section {
+
+    padding: 100px 0
+}
+
+h2 {
+
+    color: rgb(30, 29, 94);
+}
+
+
+
+.contact{
+
+      font-weight: 800;
+  font-size: 1.2em;
+  
+  
+}
+.contact .word {
+    display: inline-block;
+    line-height: 1em;
+}
+
+

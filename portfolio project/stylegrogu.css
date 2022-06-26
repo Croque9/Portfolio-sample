@@ -1,0 +1,199 @@
+
+html{
+
+    background-image: url(/images/NEW.jpeg);
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+
+}
+
+
+h2{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(14, 15, 15);
+}
+.skills {
+
+    font-family: 'Times New Roman', Times, serif;
+    
+    }
+    
+    .skills .title {
+    
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 60px;
+        padding-bottom: 20px;
+    
+    
+    }
+    
+    .skills .skills-content {
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .skills .skills-content .left {
+    
+        width: 43%;
+    
+    }
+    
+    .skills .skills-content .left img {
+    
+        height: 400px;
+        width: 400px;
+        object-fit: cover;
+    
+    }
+    
+    .skills .skills-content .right {
+    
+        width: 57%;
+    
+    }
+    
+    .skills .skills-content .right .text {
+    
+        font-size: 30px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    
+    }
+    .skills .skills-content .right .text span {
+    
+        color:  rgb(242, 241, 248);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+    
+    }
+    
+    .skills .skills-content .right p {
+    
+        text-align: justify;
+        font-size: x-large;
+    
+    }
+    
+    .skills .skills-content .right p span {
+    
+        color: brown;
+    }
+    .skills .skills-content .right a {
+    
+        display: inline-block;
+        background: whitesmoke;
+        color: rgb(30, 29, 94);
+        font-size: 20px;
+        font-weight: 500;
+        padding: 15px 20px;
+        margin-top: 20px;
+        border-radius: 6px;
+        border: 2px solid whitesmoke;
+        transition: all 0.3s ease;
+    
+        text-align: justify;
+    
+    }
+    .skills .skills-content .right a:hover {
+    
+    
+        color: rgb(235, 235, 240);
+        background: none;
+    
+    }
+    
+    
+    
+    .skills .skills-content .left .text{
+    
+        font-size: 30px;
+        font-weight: 650;
+        margin-bottom: 15px;
+        
+    }
+    
+    .skills .skills-content .right .bars{
+    
+        margin-bottom: 15px;
+        
+    }
+    
+    .skills .skills-content .right .info{
+    
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .skills .skills-content .right span{
+    
+        font-weight: 600;
+        font-size: 20px;
+    
+    }
+    
+    .skills .skills-content .right .line {
+    
+        height: 5px;
+        width: 100%;
+        background: rgb(237, 237, 240);
+    }
+    
+    .skills .skills-content .right .line ::before{
+    
+    
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: rgb(30, 29, 94);
+    }
+    
+    .skills-content .right .html ::before{
+    
+        width: 70%;
+        
+    }
+    .skills-content .right .css ::before{
+    
+        width: 60%;
+    }
+    .skills-content .right .js ::before{
+        
+        width: 50%;
+    
+    }
+    .skills-content .right .node ::before {
+    
+    
+            width: 20%;
+    }
+
+
+
+    .title {
+
+            font-weight: 800;
+            font-size: 3.8em;
+            text-transform: uppercase;
+            letter-spacing: 0.5em;
+    }
+
+    .title .word {
+        display: inline-block;
+        line-height: 1em;
+        font-weight: bold;
+      }
+
+
+
+      

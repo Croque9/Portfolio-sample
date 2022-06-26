@@ -1,0 +1,60 @@
+
+html{
+
+    background-image: url(/images/stormtroop.webp);
+    background-repeat: no-repeat;
+    background-size: 1999px 999px;
+
+}
+
+
+.contact .contact-content {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact .contact-content .column {
+
+    width: calc(50% - 30px);
+}
+
+.contact .contact-content .text{
+
+    font-size: 30px;
+    font-weight: 650;
+    margin-bottom: 15px;
+}
+
+.contact .contact-content .left p{
+
+    text-align: justify;
+}
+
+.contact .contact-content .left .icons {
+
+    margin: 10px 0;
+
+}
+
+.text{
+
+    color: azure;
+}
+
+ .row {
+
+    color: azure;
+    text-align: center;
+    font-size: xx-large;
+    position: relative left 80px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+
+
